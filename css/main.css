@@ -1,0 +1,218 @@
+/* Reto-1-Frontend-CU2016 
+ * 
+ * Enero 2016 - HackSpace.la
+ * Brayan Cruces Castillo
+ */
+
+
+/* Reset simple */ 
+*{
+
+    margin:0
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+
+
+}
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+a{
+
+    text-decoration: none;
+    color:#2AD1D9;    
+    font-weight: 300;
+}
+
+
+
+/* ==========================================================================
+   Principal
+   ========================================================================== */
+body {
+
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color:#F7FAFB;
+
+}
+
+
+header#cabecera{
+
+  background-color:#FFFFFF;
+  padding:20px 20px;
+  border-bottom:1px solid #E1E1E1; 
+  border-top:2px solid #2D83A1;
+
+}
+
+h1 {
+ color:#2D83A1;
+ font-weight: 600;
+ font-size: 1.5em;
+}
+
+
+nav {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color:#354B59;
+    min-height: 1450px;
+
+}
+
+
+ul {
+   padding:0;
+   margin:0;
+}
+
+nav > ul{
+
+    padding:10px;
+
+}
+
+nav > ul >li, nav > ul >li >a{
+
+    padding:10px;
+    font-size: 0.9em;
+    color:#87929A;
+    font-weight: bold;
+
+}
+
+nav > ul >li >a:hover{
+
+ color:#FFF;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
+
+
+footer span{
+    font-size: 0.8em;
+    color:#B1BAC0;
+}
+
+article.post{
+
+    padding: 30px 25px;
+    background: #FFF;
+    margin:20px 10px;
+    border:1px solid #E3E5E5;
+
+    border-right:2px inset #E3E5E5;
+    border-bottom:2px inset #E3E5E5;
+    border-radius: 4px;
+}
+
+article.post header{
+
+    padding: 10px 0px;
+    
+}
+
+article.post header h2{
+
+    color: #354B59;
+    
+}
+
+article.post header time{
+
+    color:#AEB6BC;
+    line-height: 2;
+    
+}
+
+
+article.post p{
+
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+
+article .comentarios{
+  background-color:#F7FAFB;
+  padding: 30px 25px;
+  text-align: left;
+}
+
+
+.comentarios article {
+    border-bottom:1px dotted #1A9AC8;
+    padding:10px; 
+}
+.comentarios article time{
+
+    font-size: 0.7em;
+    color:#BFC7CC;
+
+}
+
+.comentarios article p{
+    font-size: 0.9em;
+    color:#354B59;
+}
+
+
+.comentarios .box-comment{
+    padding:20px 0px;
+}
